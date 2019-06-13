@@ -1,10 +1,11 @@
-echo "what is the name of the jobscript"
+#!/bin/bash
+echo "what is the name of the jobscript?"
 read jobscript
-echo "what is the job ID (0 if the first job has no dependencies)"
+echo "what is the job ID (0 if the first job has no dependencies)?"
 read jobid
 echo "how many jobs do you want to submit?"
 read njobs
-echo "what is the type of dependency (e.g. afterany; afterok)"
+echo "what is the type of dependency (e.g. afterany; afterok)?"
 read depend
 m=njobs
 if [ $jobid -eq 0 ]
