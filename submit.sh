@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "what is the name of the jobscript?"
+echo "what is the filename of the jobscript?"
 read jobscript
 echo "what is the job ID (0 if the first job has no dependencies)?"
 read jobid
